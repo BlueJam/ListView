@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 public class MainActivity extends ListActivity {
 	//random stuff for the listview
+	//Blah blah blah
 	private TextView selection;
 	private static final String[] items = {"a", "b", "f", "g", "h", "j", "l", "r", "w", "n", "m", "o", "6"};
 	
