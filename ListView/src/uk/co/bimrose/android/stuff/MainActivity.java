@@ -29,4 +29,5 @@ public class MainActivity extends ListActivity {
 		selection.setText(items[position]);
 	}
 	
+	//probably the last bit of crap, for now at least
 }
