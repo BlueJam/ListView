@@ -12,7 +12,7 @@ public class MainActivity extends ListActivity {
 	//Blah blah blah
 	//YippeKiaYay
 	private TextView selection;
-	private static final String[] items = {"a", "b", "f", "g", "h", "j", "l", "r", "w", "n", "m", "o", "6"};
+	private static final String[] items = {"Bim", "Mon", "Kurg", "Mia", "Gran", "Gramps", "Soph", "Buzz", "Will", "Gill", "Izac", "Sally", "The girls"};
 	
 	//More crap
 	@Override
