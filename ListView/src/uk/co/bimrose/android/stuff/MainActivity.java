@@ -10,9 +10,11 @@ import android.widget.TextView;
 public class MainActivity extends ListActivity {
 	//random stuff for the listview
 	//Blah blah blah
+	//YippeKiaYay
 	private TextView selection;
 	private static final String[] items = {"a", "b", "f", "g", "h", "j", "l", "r", "w", "n", "m", "o", "6"};
 	
+	//More crap
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -21,6 +23,7 @@ public class MainActivity extends ListActivity {
 		setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, items));
 	}
 	
+	//Yet more crap
 	@Override
 	public void onListItemClick(ListView parent, View v, int position, long id){
 		selection.setText(items[position]);
