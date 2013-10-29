@@ -14,7 +14,7 @@ public class MainActivity extends ListActivity {
 	private int switcher;
 	private TextView selection;
 
-	private static final String[] items = {"TheBoss", "Bim", "Monster4", "Kurg", "Mia", "Gran", "Gramps", "Soph", "Buzz", "Will", "Gill", "Izac", "Sally", "The girls"};
+	private static final String[] items = {"KurganIsTheBoss", "Bim", "Monster4", "Kurg", "Mia", "Gran", "Gramps", "Soph", "Buzz", "Will", "Gill", "Izac", "Sally", "The girls"};
 
 	
 	//More crap
