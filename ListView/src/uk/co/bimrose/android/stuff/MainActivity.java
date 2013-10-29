@@ -32,14 +32,12 @@ public class MainActivity extends ListActivity {
 
 		switcher++;
 		String holder = "";
-		if(switcher%4 == 0){
+		if(switcher%3 == 0){
 			holder = " Trundles down the line!!!";
 		}else if(switcher%3 == 1){
 			holder = " Let's just say he's square!";
 		}if(switcher%3 == 2){
 			holder = " He's the cheeky one!!!!!";
-		}if(switcher%3 == 3){
-			holder = " Is always on time";
 		}
 		selection.setText(items[position]+holder);
 
