@@ -29,10 +29,12 @@ public class MainActivity extends ListActivity {
 	public void onListItemClick(ListView parent, View v, int position, long id){
 		switcher++;
 		String holder = "";
-		if(switcher%2 == 0){
+		if(switcher%3 == 0){
 			holder = " Trundles down the line!!!";
-		}else{
+		}else if(switcher%3 == 1){
 			holder = " Let's just say he's square!";
+		}if(switcher%3 == 2){
+			holder = " He's the cheeky one!!!!!";
 		}
 		selection.setText(items[position]+holder);
 	}
