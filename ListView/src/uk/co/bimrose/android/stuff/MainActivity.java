@@ -48,6 +48,3 @@ public class MainActivity extends ListActivity {
 	
 	//probably the last bit of crap, for now at least
 }
-//Wonder what problems this will cause???????????
-//none in the end, conflict was resolved by hand!
-//this might break something though....
