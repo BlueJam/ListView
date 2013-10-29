@@ -26,7 +26,7 @@ public class MainActivity extends ListActivity {
 	//Yet more crap
 	@Override
 	public void onListItemClick(ListView parent, View v, int position, long id){
-		selection.setText(items[position]+"Trousers");
+		selection.setText(items[position]+" - Trousers");
 	}
 	
 	//probably the last bit of crap, for now at least
