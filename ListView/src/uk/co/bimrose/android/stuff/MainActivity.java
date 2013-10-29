@@ -12,7 +12,7 @@ public class MainActivity extends ListActivity {
 	//Blah blah blah
 	//YippeKiaYay
 	private TextView selection;
-	private static final String[] items = {"Bim", "Monster4", "Kurg", "Mia", "Gran", "Gramps", "Soph", "Buzz", "Will", "Gill", "Izac", "Sally", "The girls"};
+	private static final String[] items = {"Mons the Boss", "Bim", "Monster4", "Kurg", "Mia", "Gran", "Gramps", "Soph", "Buzz", "Will", "Gill", "Izac", "Sally", "The girls"};
 	
 	//More crap
 	@Override
@@ -31,4 +31,3 @@ public class MainActivity extends ListActivity {
 	
 	//probably the last bit of crap, for now at least
 }
-//Just one more bit
