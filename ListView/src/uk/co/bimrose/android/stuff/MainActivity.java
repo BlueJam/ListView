@@ -32,10 +32,12 @@ public class MainActivity extends ListActivity {
 
 		switcher++;
 		String holder = "";
-		if(switcher%2 == 0){
+		if(switcher%3 == 0){
 			holder = " Trundles down the line!!!";
-		}else{
+		}else if(switcher%3 == 1){
 			holder = " Let's just say he's square!";
+		}if(switcher%3 == 2){
+			holder = " He's the cheeky one!!!!!";
 		}
 		selection.setText(items[position]+holder);
 
@@ -44,3 +46,4 @@ public class MainActivity extends ListActivity {
 	//probably the last bit of crap, for now at least
 }
 //Wonder what problems this will cause???????????
+
