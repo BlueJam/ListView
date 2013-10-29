@@ -11,6 +11,7 @@ public class MainActivity extends ListActivity {
 	//random stuff for the listview
 	//Blah blah blah
 	//YippeKiaYay
+	private int switcher;
 	private TextView selection;
 	private static final String[] items = {"Mons the Boss", "Bim", "Monster4", "Kurg", "Mia", "Gran", "Gramps", "Soph", "Buzz", "Will", "Gill", "Izac", "Sally", "The girls"};
 	
@@ -26,7 +27,14 @@ public class MainActivity extends ListActivity {
 	//Yet more crap
 	@Override
 	public void onListItemClick(ListView parent, View v, int position, long id){
-		selection.setText(items[position]);
+		switcher++;
+		String holder = "";
+		if(switcher%2 == 0){
+			holder = " Trundles down the line!!!";
+		}else{
+			holder = " Let's just say he's square!";
+		}
+		selection.setText(items[position]+holder);
 	}
 	
 	//probably the last bit of crap, for now at least
